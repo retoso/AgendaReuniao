@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    background-color: rgb(244, 239, 239);
+    height: 60px;
+    padding: 2px;
+
+}
+.titulo{
+    font-size: 40px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(230, 227, 227);
+    min-height: calc(100% - (100px));
+}
+#cadastro{
+    width: 80%;
+    padding: 20px;
+
+}
+#entradaDados{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-color:  rgb(238, 156, 88);
+}
+
+#entradaDados label{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+#entradaDados input{
+    margin-bottom: 12px;
+    padding: 4px;
+
+    color: white;
+}
+
+#entradaDados button{
+    width: 200px;
+    background-color:  rgb(238, 156, 88);
+
+    color: #fff;
+    border-radius: 4px;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(238, 156, 88);
+    height: 60px;
+    font-size: 14px;
+}
