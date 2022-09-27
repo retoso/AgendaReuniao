@@ -69,6 +69,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     background-color: rgb(238, 156, 88);
-    height: 60px;
-    font-size: 14px;
+    height: 40px;
+
 }
